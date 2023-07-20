@@ -18,10 +18,8 @@ function connection()
         $lname = $_POST['lastName'];
         $gender = $_POST['Sex'];
 
-
         $insert = "INSERT INTO `employee`(`first_name`, `middle_name`, `last_name`, `gender`) 
                    VALUES ('$fname', '$mname', '$lname', '$gender')";
-
 
         if ($con->query($insert)) {
             echo "Data inserted successfully.";
@@ -33,12 +31,8 @@ function connection()
     $con->close();
 }
 
-
-
-
 connection();
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +57,6 @@ connection();
                                 
                         <form action=" " method="post">
                             
-                    
                             <div class="input-group mb-3">
                                 <span class="input-group-text" >FIRST NAME</span>
                                 <input type="text"  required id ="firstName" name="firstName" class="form-control" placeholder="First name">
