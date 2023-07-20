@@ -2,7 +2,7 @@
 /*
  * Checked: July 20, 2023
  */
-
+// Shaira A. Abdula
 public class StrongNumber{
 	
 	static int TotalOfFactorial = 0;
