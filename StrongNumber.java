@@ -1,3 +1,8 @@
+
+/*
+ * Checked: July 20, 2023
+ */
+
 public class StrongNumber{
 	
 	static int TotalOfFactorial = 0;
